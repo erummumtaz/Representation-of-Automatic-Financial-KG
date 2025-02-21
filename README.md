@@ -1,7 +1,7 @@
 # Representation-of-Automatic-Financial-KG
 A framework for automatic extraction of triples and ontologies from textual data, particularly financial reports.
 
-# 📌 Features
+## 📌 Features
 
 - Automatic ontology extraction from financial reports
 
@@ -11,13 +11,13 @@ A framework for automatic extraction of triples and ontologies from textual data
 
 - Knowledge Graph generation and visualization
 
-# 🛠 Installation
+## 🛠 Installation
 
 - First, install the dependencies:
 
         pip install -r requirements.txt
 
-# 🚀 Usage
+## 🚀 Usage
 
 - Run the main script:
 
