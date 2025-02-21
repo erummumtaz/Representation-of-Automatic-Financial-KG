@@ -1,0 +1,5 @@
+pandas
+networkx
+matplotlib
+spacy
+text2kgbench
