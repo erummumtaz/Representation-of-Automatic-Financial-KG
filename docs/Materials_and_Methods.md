@@ -31,3 +31,8 @@
 **Text2KGBench Version:** Latest commit from the main branch (https://github.com/cenguix/Text2KGBench)
 
 **Other Hardware Info:** None provided
+
+# 3rd Party Dataset:
+  - No external third-party dataset with DOI/URL was used.
+  - The dataset used in this study (data.csv) is curated and provided directly within this repository under the data/ folder.
+  - This dataset includes financial terminologies and values for knowledge graph extraction and analysis.
