@@ -20,7 +20,7 @@
 
 **Operating System:** Windows 11
 
-**CPU:** To be specified (e.g., Intel i7, AMD Ryzen)
+**CPU:** To be specified (e.g., Intel i5,i7, AMD Ryzen)
 
 **RAM:** To be specified (e.g., 16 GB)
 
@@ -40,3 +40,13 @@
 ## Selection Method:
 
 We selected the Text2KGBench framework based on its ability to handle complex financial text, its support for prompt-based triple extraction, and its compatibility with modern NLP models. Compared to other methods, Text2KGBench provides a scalable solution with minimal manual intervention for financial knowledge graph generation.
+
+## Library Versions
+The following library versions were used in this project, reflecting the latest stable releases as of **February–March 2024**:
+- **pandas**: 1.5.3
+- **networkx**: 3.2.1
+- **matplotlib**: 3.7.1
+- **spacy**: 3.5.0
+- **text2kgbench**: 0.1.0 (probably initial release)
+
+These versions were selected to ensure consistency and reproducibility of results during the experimental phase.
