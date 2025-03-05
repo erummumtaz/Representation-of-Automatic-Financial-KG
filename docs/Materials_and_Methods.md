@@ -1,5 +1,6 @@
+# Materials & Methods
 # Computing Infrastructure
-## Google Colab Environment:
+### Google Colab Environment:
 
 **Python Version**: 3.9+
 
@@ -15,8 +16,7 @@
 
 **Other Hardware Info:** Colab Pro+ runtime with high-RAM GPU environment.
 
-
-## Local System:
+### Local System:
 
 **Operating System:** Windows 11
 
@@ -32,7 +32,11 @@
 
 **Other Hardware Info:** None provided
 
-# 3rd Party Dataset:
+## 3rd Party Dataset:
   - No external third-party dataset with DOI/URL was used.
   - The dataset used in this study (data.csv) is curated and provided directly within this repository under the data/ folder.
   - This dataset includes financial terminologies and values for knowledge graph extraction and analysis.
+
+## Selection Method:
+
+We selected the Text2KGBench framework based on its ability to handle complex financial text, its support for prompt-based triple extraction, and its compatibility with modern NLP models. Compared to other methods, Text2KGBench provides a scalable solution with minimal manual intervention for financial knowledge graph generation.
