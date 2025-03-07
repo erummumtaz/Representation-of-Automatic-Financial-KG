@@ -50,3 +50,25 @@ The following library versions were used in this project, reflecting the latest 
 - **text2kgbench**: 0.1.0 (probably initial release)
 
 These versions were selected to ensure consistency and reproducibility of results during the experimental phase.
+
+## GPU and TPU Considerations:
+
+### GPU Settings in Google Colab:
+
+#### Google Colab GPU Configuration:
+
+- The project utilized NVIDIA A100 GPU within the Google Colab Pro environment. No additional manual configurations or optimizations (such as mixed precision training, batch size tuning, or memory management) were required due to the lightweight nature of the triple extraction tasks performed by Text2KGBench.
+  
+- The default Colab GPU environment was sufficient to handle financial data processing efficiently, with no notable need for further GPU parameter adjustments.
+
+### TPU Usage Explanation:
+
+#### TPUs Not Utilized:
+- TPUs (Tensor Processing Units) were not considered in this project because Text2KGBench and its associated libraries (such as spaCy and networkx) are not optimized for TPU acceleration.
+  
+- TPUs are primarily designed to accelerate large-scale deep learning model training, whereas Text2KGBench focuses on text processing and rule-based extraction, which benefit more from CPUs and GPUs for their flexibility with diverse libraries.
+
+#### Potential Impact of TPU Usage:
+
+If TPUs were employed, there might be limited performance gains due to incompatibility with some core Python libraries, and additional effort would be required to adapt the codebase, with uncertain benefits for the types of computations involved in this study.
+
